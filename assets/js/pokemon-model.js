@@ -1,8 +1,15 @@
-
 class Pokemon {
     number;
     name;
     type;
     types = [];
-    photo;
+    habilidades = [];
+    img;
+    Status  = [];       
+}
+
+class PokemonStatus
+{
+    name;
+    total;
 }
